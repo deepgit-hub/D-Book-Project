@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: black;
+    color: gold;
+    padding: 10px;
+}
+h1,li,ul{
+    display: inline;
+}
+h1{
+    padding-right: 900px;
+}
+li{
+    color: goldenrod;
+}
+li:hover{
+    color: gold;
+    cursor: pointer;
+}
+input{
+   text-align: center;
+   height: 20px;
+   width: 200px;
+   margin-top: 50px;
+}
+.searchbar{
+    text-align: center;
+    margin: 20px;
+}
+.box{
+    
+    border-color: rgb(2, 2, 27);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 170px;
+    margin: 7px;
+    
+}
+.box:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.Products{
+    text-align: center;
+}
+.Aboutus{
+    text-align: center;  
+    margin: 20px;
+}
+.contact{
+     background-color: black;
+    color: aliceblue;
+    padding: 25px;
+    margin: 25px;
+    text-align: center;
+}
+.contact:hover{
+    cursor: pointer;
+}
